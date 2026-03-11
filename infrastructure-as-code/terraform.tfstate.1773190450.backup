@@ -1,7 +1,7 @@
 {
   "version": 4,
   "terraform_version": "1.9.8",
-  "serial": 18,
+  "serial": 17,
   "lineage": "b9106c44-ca1e-7450-8ab2-6a5bf7314e5f",
   "outputs": {},
   "resources": [
@@ -11,6 +11,34 @@
       "name": "foo",
       "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
       "instances": [
+        {
+          "index_key": "File4",
+          "schema_version": 0,
+          "attributes": {
+            "content": "# Some content for file 4",
+            "content_base64": null,
+            "content_base64sha256": "RT8TRkriy4Kr8bLx6p5CBpNwEwEbg7kErLJ+EkOF9uU=",
+            "content_base64sha512": "8CQEXNiemnWeoslkYrjO5JtuQb2xOjNvF6vgzDqp/dB/qbckkdSuKagA6RXfEJ2FUEEXFwhxgo7Nf8FKdaX9xA==",
+            "content_md5": "2e5eb0c237521a8825e0436fa51216b0",
+            "content_sha1": "6b82f1f329e5eeea23b34725c32d1488c4a56816",
+            "content_sha256": "453f13464ae2cb82abf1b2f1ea9e4206937013011b83b904acb27e124385f6e5",
+            "content_sha512": "f024045cd89e9a759ea2c96462b8cee49b6e41bdb13a336f17abe0cc3aa9fdd07fa9b72491d4ae29a800e915df109d85504117170871828ecd7fc14a75a5fdc4",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "file4.txt",
+            "id": "6b82f1f329e5eeea23b34725c32d1488c4a56816",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "sensitive_content"
+              }
+            ]
+          ]
+        },
         {
           "index_key": "file0",
           "schema_version": 0,
@@ -83,34 +111,6 @@
             "file_permission": "0777",
             "filename": "file3.txt",
             "id": "4094d4c0a6e7a8116b3fdd955ac6fe394f5451f9",
-            "sensitive_content": null,
-            "source": null
-          },
-          "sensitive_attributes": [
-            [
-              {
-                "type": "get_attr",
-                "value": "sensitive_content"
-              }
-            ]
-          ]
-        },
-        {
-          "index_key": "file4",
-          "schema_version": 0,
-          "attributes": {
-            "content": "# Some content for file 4",
-            "content_base64": null,
-            "content_base64sha256": "RT8TRkriy4Kr8bLx6p5CBpNwEwEbg7kErLJ+EkOF9uU=",
-            "content_base64sha512": "8CQEXNiemnWeoslkYrjO5JtuQb2xOjNvF6vgzDqp/dB/qbckkdSuKagA6RXfEJ2FUEEXFwhxgo7Nf8FKdaX9xA==",
-            "content_md5": "2e5eb0c237521a8825e0436fa51216b0",
-            "content_sha1": "6b82f1f329e5eeea23b34725c32d1488c4a56816",
-            "content_sha256": "453f13464ae2cb82abf1b2f1ea9e4206937013011b83b904acb27e124385f6e5",
-            "content_sha512": "f024045cd89e9a759ea2c96462b8cee49b6e41bdb13a336f17abe0cc3aa9fdd07fa9b72491d4ae29a800e915df109d85504117170871828ecd7fc14a75a5fdc4",
-            "directory_permission": "0777",
-            "file_permission": "0777",
-            "filename": "file4.txt",
-            "id": "6b82f1f329e5eeea23b34725c32d1488c4a56816",
             "sensitive_content": null,
             "source": null
           },
