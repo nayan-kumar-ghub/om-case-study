@@ -14,7 +14,7 @@
 # Changed from count to for_each
 # for_each uses a SET OF NAMES instead of numbers
 # This means each resource has a fixed identity
-# and removing one does not affect the others
+# and removing one does not affect the other resources
 
 variable "files" {
   default = ["file0", "file2", "file3", "file4"]
